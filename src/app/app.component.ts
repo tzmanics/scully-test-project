@@ -1,3 +1,4 @@
+import { ScullyRoutesService } from '@scullyio/ng-lib';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'scully-test-project';
+  constructor(public scullyRoutes: ScullyRoutesService) {}
 }

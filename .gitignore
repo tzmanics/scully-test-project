@@ -46,3 +46,5 @@ testem.log
 Thumbs.db
 
 netlifyConfig.json
+# Local Netlify folder
+.netlify
