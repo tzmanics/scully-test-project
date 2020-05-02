@@ -1,7 +1,5 @@
 [build]
   publish = "dist/static"
   command = "npm run jam"
-[[redirects]]
-  from="/*"
-  to="/index.html"
-  status=200
+[[plugins]]
+package="../netlify-plugin-scully-scraper"
