@@ -2,4 +2,6 @@
   publish = "dist/static"
   command = "npm run jam"
 [[plugins]]
-package="../netlify-plugin-scully-scraper"
+package="netlify-plugin-file-scraper"
+  [plugins.inputs]
+  fileType = "js"
